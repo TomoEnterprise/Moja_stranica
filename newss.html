@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Newsletter</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" rel='stylesheet' href="style1.css">
+		<script src="https://use.fontawesome.com/e6e8d7964c.js"></script>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:800' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+
+		
+	</head>
+	<body>
+	
+		<header>
+			<section class="container">
+					<a class="maknia" href="index.php"><h1>Newsletter</h1></a>
+					<nav >
+						<ul>
+							<li><a href="index.php">Nova vijest</a></li>
+							<li><a  href="index.php">O nama</a></li>
+							<li><a  href="index.php">Kontakt</a></li>
+							<li><a  href="administrator.php">Admin</a></li>
+						</ul>
+						
+					</nav>
+			</section>
+		</header>
+		
+		
+		<main>
+			
+			<section class="container2">
+			<h3>VIJEST</h3>
+				<form action="skripta.php" method="POST" id="forma">
+					<div id="divforma" class="clearfix">
+						<label for="naslov">Naslov Vijesti:</label>
+						<input type="text" id="naslov" name="naslov" maxlength="72" size="72">
+					</div>
+					<div id="divforma" class="clearfix">
+						<label for="kratkiSadrzaj">Kratki sažetak:</label>
+						<textarea  id="kratkiSadrzaj" name="kratkiSadrzaj" rows="2" ></textarea>
+					</div>
+					<div id="divforma" class="clearfix">
+						<label for="sadrzaj">Vijest:</label>
+						<textarea id="sadrzaj" name="sadrzaj" rows="20" ></textarea>
+					</div>
+					<div id="divforma" class="clearfix">
+						<label for="kategorija">Kategorija:</label>
+						<select style="border-radius:0; box-shadow:0; margin-top:30px;margin-right:120px; margin-left:-120px;"id="kategorija" name="kategorija">
+							<option value="Sport">Sport</option>
+							<option value="Tehnologija">Tehnologija</option>
+							<option value="Znanost" selected>Znanost</option>
+							<option value="Automobili">Automobili</option>
+						</select>
+					</div>
+					<div id="divforma" class="clearfix">
+						<input class="bezin" type="checkbox" name="prikazi" id="prikazi" value="prikazi"><p id="span">Prikazi na stranici</span>
+						<input class="potv" type="submit" value="Potvrdi">
+					</div>
+				</form>
+			</section>
+		</main>
+		
+		
+		
+		<footer>
+				<section class="container1">
+					<article class="lijevif">
+						<p class="Don_t_want_to_receive_anymore_emails__Unsubscri">Don't want to receive anymore emails? Unsubscribe</p>
+						<p class="Don_t_want_to_receive_anymore_emails__Unsubscri">Freebiesgallery, 329 Notingham Street, San Francisco, CA 94307</p>
+						<p class="Don_t_want_to_receive_anymore_emails__Unsubscri">© Copyright 2013 FreebiesGallery. All rights reserved.</p>
+					</article>
+					<article class="desnif">
+						<a href="http://www.facebook.com"><img src="Slike/facebook.png"></a>
+						<a href="http://www.twitter.com"><img src="Slike/Twitter.png"></a>
+						<a href="http://www.google.com"><img src="Slike/Google +.png"></a>
+						<a href="http://www.facebook.com"><img src="Slike/LinkedIn.png"></a>
+						<a href="http://www.facebook.com"><img src="Slike/Path.png"></a>
+						
+					</article>
+				</section>
+		</footer>
+	</body>
+</html>

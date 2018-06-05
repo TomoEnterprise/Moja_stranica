@@ -1,0 +1,56 @@
+*{padding:0;margin:0;}
+header{padding-top:20px;width:100%;background-image:url("bg.png");background-repeat:no-repeat;background-size:cover;height:100px;}
+.row {display: -ms-flexbox;display: flex;-ms-flex-wrap: wrap;flex-wrap: wrap;margin-right: -15px;margin-left: -15px;}
+.container{width:70%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;max-width:900px;}
+.container{width:70%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;max-width:900px;}
+.maknia{float:left;width:20%;font-weight:bold;text-decoration:none;font-family: "Myriad Pro";color: rgb(255, 255, 255);font-size:26px;line-height:2}
+.maknia:hover{text-decoration:none;color: rgb(255, 255, 255)}	
+.injust{font-size: 36px;font-family: "Myriad Pro";color: rgb(255, 255, 255);line-height: 2.222;text-align: center;padding:0;margin:0;}
+nav{float:right;width;40%;margin-top:30px;}
+nav ul li{display:inline-block;list-style:none;}
+nav ul li a{text-decoration:none; color:white;padding:60px 10px;transition:0.7s;font-weight:bold;font-size:18px;}
+nav ul li a:hover{color:rgb(153, 153, 153);}
+
+main{margin-top:150px;}
+.container1{max-width:1000px;width:70%;text-align:center;margin:auto;}
+.container2{border-radius:40px;max-width:1000px;width:70%;text-align:left;margin:auto;border:1px  rgb(153, 153, 153) solid;padding:0px;}
+.container2 h3{border-top-left-radius:40px;border-top-right-radius:40px;font-size:32px;font-family: "Myriad Pro";font-weight:900;background-color:rgb(153, 153, 153);color:white;padding:10px;}
+form {color: rgb(153, 153, 153);font-family: "Myriad Pro";}
+#divforma{margin:30px;padding:30px;border:1px  rgb(153, 153, 153) solid;border-radius:40px;box-shadow: 1px 1px 5px #191949;}
+#divforma label{font-size:27px;float:left;width:30%;}
+#divforma input{float:left;width:68%;margin-top:10px;}
+#divforma textarea{float:right;width:68%;}
+#divforma .potv{float:right;margin-right:300px;width:10%;margin-top:2px;background-color:rgb(153, 153, 153);color:white;border-radius:30px;}
+#divforma .bezin {margin-left:200px;width:2%;margin-top:2px;margin-right:10px;}
+
+footer{margin-top:100px;padding-top:50px;width:100%;background-image:url("bg1.png");background-repeat:no-repeat;background-size:cover;height:100px;}
+.lijevif{float:left;width:80%;text-align:left;}
+.desnif{float:right;width:20%;}
+.desnif a{padding: 4px;}
+.Don_t_want_to_receive_anymore_emails__Unsubscri {font-size: 15px;font-family: "Myriad Pro";color: rgb(153, 153, 153);line-height: 1.6;}
+
+.clearfix{overflow:auto;}
+@media (max-width:700px)
+{
+	.maknia h1{font-size:14px}
+	.makniaa{font-size:14px;width:40%;float:right;}
+	.makniaa h2{font-size:14px;padding:0px;}
+	.float1{width:20%;padding:0;margin:0; }
+	.float2{width:50%;padding:0;margin:0;}
+	.float3{width:20%;padding:0;margin:0;}
+	.float_left{max-width:700px;width:100%;text-align:center;}
+	.float_right{max-width:700px;width:100%;text-align:center;}
+	.float_right1{max-width:700px;width:100%;text-align:center;}
+	.easy h4{text-align:center;}
+	.easy p{text-align:center;width:100%;}
+	.signup h5,.signup p{text-align:center;}
+	.float14{width:100%;text-align:center;}
+	.float15{width:100%;margin-top:20px;}
+	footer{text-align:center;}
+	.desnif, .lijevif{width:100%;text-align:center;}
+	
+	
+}
+
+
+

@@ -1,0 +1,79 @@
+*{padding:0;margin:0;}
+header{padding-top:20px;width:100%;background-image:url("Slike/bg.png");background-repeat:no-repeat;background-size:cover;height:100px;}
+
+.container{width:70%;padding-right:15px;padding-left:15px;margin-right:auto;margin-left:auto;max-width:900px;}
+.maknia{float:left;width:20%;font-weight:bold;text-decoration:none;font-family: "Myriad Pro";color: rgb(255, 255, 255);font-size:26px;line-height:2}
+.maknia:hover{text-decoration:none;color: rgb(255, 255, 255)}	
+.injust{font-size: 36px;font-family: "Myriad Pro";color: rgb(255, 255, 255);line-height: 2.222;text-align: center;padding:0;margin:0;}
+nav{float:right;width;40%;margin-top:30px;}
+nav ul li{display:inline-block;list-style:none;}
+nav ul li a{text-decoration:none; color:white;padding:60px 10px;transition:0.7s;font-weight:bold;font-size:18px;}
+nav ul li a:hover{color:rgb(153, 153, 153);}
+
+main{margin-top:150px;}
+.container1{max-width:1000px;width:70%;text-align:center;margin:auto;}
+.container2{max-width:1000px;width:70%;text-align:left;margin:auto;}
+.vijest{clear:both;border:1px rgb(153, 153, 153) solid;border-radius:50px;max-width:1000px;width:70%;text-align:center;margin:30px auto;padding:50px;font-size: 18px;font-family: "Myriad Pro";color: rgb(153, 153, 153);line-height: 1.667;}
+.vijest h3 {text-align:left;margin-top:;padding-bottom:10px;float:left;width:100%;FONT-size:35px;}
+.vijest h4 {color:white;text-align:left;float:left;width:100%;padding-bottom:20px;margin-bottom:30px;background-color: rgb(153, 153, 153);border-bottom-left-radius:10px;border-bottom-right-radius:10px;}
+.vijest img{text-align:left;padding-bottom:30px;float:left;width:40%;}
+.vijest p{text-align:left;padding-bottom:30px;float:left;width:50%;}
+#article{float:left;width:1000px;border-radius:20px;padding:0px;padding-bottom:40px;margin-top:0px;margin-bottom:20px;box-shadow:2px 5px 15px #19191949;line-height:1.6em;}
+#dodajuredibutton{text-decoration:none;color:black
+footer{margin-top:100px;padding-top:50px;width:100%;background-image:url("bg1.png");background-repeat:no-repeat;background-size:cover;height:100px;}
+.lijevif{float:left;width:80%;text-align:left;}
+.desnif{float:right;width:20%;}
+.desnif a{padding: 4px;}
+.Don_t_want_to_receive_anymore_emails__Unsubscri {font-size: 15px;font-family: "Myriad Pro";color: rgb(153, 153, 153);line-height: 1.6;}
+#labelUser{
+	float:left;
+	width:155px;
+	margin-right:10px;
+	text-align:right;
+}
+#noposts{
+	text-align:center;
+}
+#dodajuredibutton a:link{
+	border-radius:25px;
+	margin-right:10px;
+	height:13px;
+	padding: 7px 20px 18px 20px;
+}
+#article{
+	float:left;
+	width:1000px;
+	background:url('images/bg_texture_article.jpg');
+	border-radius:20px;
+	padding:0px;
+	padding-bottom:40px;
+	margin-top:0px;
+	margin-bottom:20px;
+	box-shadow: 2px 5px 15px #191949;
+	line-height:1.6em;
+}
+.clearfix{overflow:auto;}
+@media (max-width:700px)
+{
+	.maknia h1{font-size:14px}
+	.makniaa{font-size:14px;width:40%;float:right;}
+	.makniaa h2{font-size:14px;padding:0px;}
+	.float1{width:20%;padding:0;margin:0; }
+	.float2{width:50%;padding:0;margin:0;}
+	.float3{width:20%;padding:0;margin:0;}
+	.float_left{max-width:700px;width:100%;text-align:center;}
+	.float_right{max-width:700px;width:100%;text-align:center;}
+	.float_right1{max-width:700px;width:100%;text-align:center;}
+	.easy h4{text-align:center;}
+	.easy p{text-align:center;width:100%;}
+	.signup h5,.signup p{text-align:center;}
+	.float14{width:100%;text-align:center;}
+	.float15{width:100%;margin-top:20px;}
+	footer{text-align:center;}
+	.desnif, .lijevif{width:100%;text-align:center;}
+	
+	
+}
+
+
+
