@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Newsletter</title>
+		<title>Portal HGSSK</title>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" rel='stylesheet' href="style.css">
 		<script src="https://use.fontawesome.com/e6e8d7964c.js"></script>
@@ -20,7 +20,7 @@
 	
 		<header>
 			<section class="container">
-					<a class="maknia" href="index.php"><h1>Newsletter</h1></a>
+					<a class="maknia" href="index.php"><h1>Portal HGSSK</h1></a>
 					<nav >
 						<ul>
 							<li><a href="index.php">Nova vijest</a></li>
