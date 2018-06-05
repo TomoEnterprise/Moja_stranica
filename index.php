@@ -24,8 +24,10 @@
 					<nav >
 						<ul>
 							<li><a href="index.php">Nova vijest</a></li>
-							<li><a  href="index.php">O nama</a></li>
-							<li><a  href="index.php">Kontakt</a></li>
+							<li><a  href="inde.php">Sport</a></li>
+							<li><a  href="index.php">Znanost</a></li>
+							<li><a  href="index.php">Tehnologija</a></li>
+							<li><a  href="index.php">Automobil</a></li>
 							<li><a  href="administrator.php">Admin</a></li>
 						</ul>
 						
