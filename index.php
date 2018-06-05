@@ -56,7 +56,8 @@
 										<div id="kategorija">
 										<div id="kategorija_naslov">Kategorija: </div>
 										<h4>' . $row['kategorija'] . '</h4></div>
-										<p>' . $row['sadrzaj'] . '</p></section>';
+										<p>' . $row['sadrzaj'] . '</p></section>'
+										<button href="stranica.php">Prikazi'. $_SESSION["PrikaziVijest"]=$row['id'].'</button>';		;
 							}
 						}
 						else
